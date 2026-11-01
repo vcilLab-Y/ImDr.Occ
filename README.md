@@ -1,63 +1,25 @@
-ImDr. Occ
+# ImDr. Occ
 
-ImDr. Occ: Interaction-Enhanced Multimodal Fusion Representation with Diffusion Refinement for 3D Occupancy Prediction
+**ImDr. Occ: Interaction-Enhanced Multimodal Fusion Representation with Diffusion Refinement for 3D Occupancy Prediction**
 
-Official repository for ImDr. Occ, a multimodal 3D occupancy prediction framework that combines interaction-enhanced camera–LiDAR feature fusion with diffusion-based refinement.
+This is the official repository for **ImDr. Occ**, a multimodal 3D occupancy prediction framework that combines interaction-enhanced camera–LiDAR feature fusion with diffusion-based refinement.
 
-Paper status: The manuscript is currently under peer review.
+**The manuscript is currently under peer review.** Code, training logs, and pretrained weights will be released in this repository.
 
-Release status: Code, training logs, and pretrained weights are coming soon.
+## Results and Pretrained Models
 
-Results and Model Zoo
+### Occ3D-nuScenes
 
-Occ3D-nuScenes
+Performance on the Occ3D-nuScenes validation set.
 
-Results on the validation set.
+| Model | Input | Image Resolution | mIoU (%) | Training Log | Weights |
+|:------|:------|:----------------:|:--------:|:------------:|:-------:|
+| ImDr. Occ | Camera + LiDAR | 256 × 704 | **55.80** | Coming soon | Coming soon |
 
-Model
+### SurroundOcc-nuScenes
 
-Input
+Performance on the SurroundOcc-nuScenes validation set.
 
-Image Resolution
-
-mIoU (%)
-
-Training Log
-
-Weights
-
-ImDr. Occ
-
-Camera + LiDAR
-
-256 × 704
-
-55.80
-
-Coming soon
-
-Coming soon
-
-SurroundOcc-nuScenes
-
-Results on the validation set.
-
-Model
-
-Input
-
-IoU (%)
-
-Training Log
-
-Weights
-
-ImDr. Occ
-
-Camera + LiDAR
-
-46.3
-
-Coming soon
-
-Coming soon
+| Model | Input | IoU (%) | Training Log | Weights |
+|:------|:------|:-------:|:------------:|:-------:|
+| ImDr. Occ | Camera + LiDAR | **46.3** | Coming soon | Coming soon |
